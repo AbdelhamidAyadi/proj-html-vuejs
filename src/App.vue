@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <header>
+      <NavComp/>
+      <HomePageComp/>
+    </header>
+    <main>
+      <StatisticsComp/>
+    </main>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavComp from './components/NavComp.vue'
+import HomePageComp from './components/HomePageComp.vue'
+import StatisticsComp from './components/StatisticsComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavComp,
+    HomePageComp,
+    StatisticsComp
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+  background-image: url('./assets/img/background-pattern-wavify.png');
 }
 </style>
