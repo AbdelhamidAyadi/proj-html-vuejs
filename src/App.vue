@@ -8,6 +8,7 @@
       <StatisticsComp/>
       <AboutMeComp/>
       <OnlineCoursesComp/>
+      <BookStoreOnlineComp/>
     </main>
   </div>
 </template>
@@ -18,6 +19,7 @@ import HomePageComp from './components/HomePageComp.vue'
 import StatisticsComp from './components/StatisticsComp.vue'
 import AboutMeComp from './components/AboutMeComp.vue'
 import OnlineCoursesComp from './components/OnlineCoursesComp.vue'
+import BookStoreOnlineComp from './components/BookStoreOnlineComp.vue'
 
 export default {
   name: 'App',
@@ -27,6 +29,7 @@ export default {
     StatisticsComp,
     AboutMeComp,
     OnlineCoursesComp,
+    BookStoreOnlineComp,
   }
 }
 </script>

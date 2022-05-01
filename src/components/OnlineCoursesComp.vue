@@ -25,9 +25,9 @@
     </div>
     <div>
       <button>
-                View all courses
-                <i class="fa-solid fa-right-long"></i>
-            </button>
+        View all courses
+        <i class="fa-solid fa-right-long"></i>
+      </button>
     </div>
   </div>
 </template>
@@ -96,6 +96,7 @@
 <style scoped lang="scss">
   .onlineCourses_container {
     padding: 0 15%;
+    margin: 100px 0;
     text-align: center;
   }
 
@@ -158,9 +159,11 @@
         div:nth-of-type(3) {
           color: gray;
           font-size: 0.8rem;
-          span{
+
+          span {
             padding-right: 20px;
-            i{
+
+            i {
               padding-right: 5px
             }
           }
@@ -172,17 +175,20 @@
 
     }
   }
+
   button {
-            padding: 15px 40px;
-            border-radius: 10px;
-            border-color:#20ad96;
-            background: #20ad96;
-            color: white;
-            font-weight: bold;
-            &:hover{
-                
-                background: #2ab7a0b0;;
-            }
-                
-        }
+    padding: 15px 40px;
+    border-radius: 10px;
+    border-color: #20ad96;
+    background: #20ad96;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+
+      background: #2ab7a0b0;
+      ;
+    }
+
+  }
 </style>
