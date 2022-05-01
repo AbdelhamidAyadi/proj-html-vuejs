@@ -10,6 +10,7 @@
       <OnlineCoursesComp/>
       <BookStoreOnlineComp/>
       <ClientsComp/>
+      <RealStoriesComp/>
     </main>
   </div>
 </template>
@@ -22,6 +23,7 @@ import AboutMeComp from './components/AboutMeComp.vue'
 import OnlineCoursesComp from './components/OnlineCoursesComp.vue'
 import BookStoreOnlineComp from './components/BookStoreOnlineComp.vue'
 import ClientsComp from './components/ClientsComp.vue'
+import RealStoriesComp from './components/RealStoriesComp.vue'
 
 export default {
   name: 'App',
@@ -33,6 +35,7 @@ export default {
     OnlineCoursesComp,
     BookStoreOnlineComp,
     ClientsComp,
+    RealStoriesComp,
   }
 }
 </script>
@@ -46,5 +49,6 @@ export default {
 }
 header{
   background-image: url('./assets/img/background-pattern-wavify.png');
+  background-color: #f7f7fd;
 }
 </style>
