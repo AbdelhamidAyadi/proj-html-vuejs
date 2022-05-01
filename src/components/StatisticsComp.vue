@@ -36,6 +36,7 @@
 <style scoped lang="scss">
     .statistics_container {
         padding: 0 15%;
+        margin: 50px 0;
         display: flex;
         justify-content: space-around;
         margin-bottom: 50px;

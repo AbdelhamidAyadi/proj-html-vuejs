@@ -6,6 +6,8 @@
     </header>
     <main>
       <StatisticsComp/>
+      <AboutMeComp/>
+      <OnlineCoursesComp/>
     </main>
   </div>
 </template>
@@ -14,13 +16,17 @@
 import NavComp from './components/NavComp.vue'
 import HomePageComp from './components/HomePageComp.vue'
 import StatisticsComp from './components/StatisticsComp.vue'
+import AboutMeComp from './components/AboutMeComp.vue'
+import OnlineCoursesComp from './components/OnlineCoursesComp.vue'
 
 export default {
   name: 'App',
   components: {
     NavComp,
     HomePageComp,
-    StatisticsComp
+    StatisticsComp,
+    AboutMeComp,
+    OnlineCoursesComp,
   }
 }
 </script>
