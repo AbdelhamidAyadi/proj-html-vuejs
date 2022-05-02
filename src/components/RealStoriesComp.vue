@@ -37,6 +37,7 @@
   .realStoriesContainer {
     display: flex;
     position: relative;
+    margin: 50px 0;
 
   }
 

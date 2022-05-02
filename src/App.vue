@@ -11,6 +11,7 @@
       <BookStoreOnlineComp/>
       <ClientsComp/>
       <RealStoriesComp/>
+      <ArticlesComp/>
     </main>
   </div>
 </template>
@@ -24,6 +25,7 @@ import OnlineCoursesComp from './components/OnlineCoursesComp.vue'
 import BookStoreOnlineComp from './components/BookStoreOnlineComp.vue'
 import ClientsComp from './components/ClientsComp.vue'
 import RealStoriesComp from './components/RealStoriesComp.vue'
+import ArticlesComp from './components/ArticlesComp.vue'
 
 export default {
   name: 'App',
@@ -36,6 +38,7 @@ export default {
     BookStoreOnlineComp,
     ClientsComp,
     RealStoriesComp,
+    ArticlesComp,
   }
 }
 </script>
