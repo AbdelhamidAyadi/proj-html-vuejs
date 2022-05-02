@@ -13,6 +13,9 @@
       <RealStoriesComp/>
       <ArticlesComp/>
     </main>
+    <footer>
+      <footerComp/>
+    </footer>
   </div>
 </template>
 
@@ -26,6 +29,7 @@ import BookStoreOnlineComp from './components/BookStoreOnlineComp.vue'
 import ClientsComp from './components/ClientsComp.vue'
 import RealStoriesComp from './components/RealStoriesComp.vue'
 import ArticlesComp from './components/ArticlesComp.vue'
+import footerComp from './components/footerComp.vue'
 
 export default {
   name: 'App',
@@ -39,6 +43,7 @@ export default {
     ClientsComp,
     RealStoriesComp,
     ArticlesComp,
+    footerComp,
   }
 }
 </script>
