@@ -124,14 +124,23 @@
 
 
     .course {
-      width: calc(100%/3);
-      padding: 0 10px;
-      padding-bottom: 20px;
+      width: calc((100%/3) - 20px);
+      margin: 20px 10px;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: all 0.3s;
+
+      &:hover {
+        box-shadow: black 5px 5px 30px;
+        padding: 10px;
+        
+      }
 
       img {
         width: 100%;
         height: 100%;
-        border-radius: 10px;
+        border-radius: 20px;
+
       }
 
       .course_details {
@@ -186,8 +195,9 @@
 
     &:hover {
 
-      background: #2ab7a0b0;
-      ;
+      background: #3f3a64;
+      border-color: #3f3a64;
+      cursor: pointer;
     }
 
   }

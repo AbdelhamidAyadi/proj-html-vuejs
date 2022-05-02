@@ -75,7 +75,9 @@
             font-weight: bold;
             &:hover{
                 
-                background: #2ab7a0b0;;
+                background:#3f3a64;
+                border-color: #3f3a64;
+                cursor: pointer;
             }
                 
         }

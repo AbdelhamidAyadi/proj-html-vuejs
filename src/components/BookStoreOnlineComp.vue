@@ -27,6 +27,20 @@
       <div v-for="(element , index) in books" :key="index" class="book">
         <div class="book_cover">
           <img :src="element.image">
+          <div class="options">
+            <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+           <div>
+              <i class="fa-solid fa-heart"></i>
+           </div>
+           <div>
+              <i class="fa-solid fa-signal"></i>
+           </div>
+          </div>
         </div>
         <div class="book_details">
           <div>{{element.name}}</div>
@@ -122,8 +136,9 @@
 
     &:hover {
 
-      background: #2ab7a0b0;
-      ;
+      background: #3f3a64;
+      border-color: #3f3a64;
+      cursor: pointer;
     }
 
   }
@@ -139,10 +154,31 @@
     padding: 0 10px;
 
     .book_cover {
+      position: relative;
       img {
         height: 100%;
         width: 100%;
       }
+      .options{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        i{
+          padding: 7px;
+          margin: 2px 0;
+          background: rgb(227, 225, 225);
+          border-radius: 50% ;
+          cursor: pointer;
+          display: none;
+          
+
+        }
+
+      }
+      &:hover i{
+        display: inline-block;
+      }
+
     }
 
     >* {
@@ -151,6 +187,7 @@
 
     .book_details {
       text-align: center;
+
       div:first-of-type {
         font-size: 1.1rem;
         font-weight: bold;
